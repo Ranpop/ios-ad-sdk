@@ -1,0 +1,706 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B04B88A1EAB2FC900AB5D17 /* AdSdkKeyChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B04B8881EAB2FC900AB5D17 /* AdSdkKeyChain.h */; };
+		0B04B88B1EAB2FC900AB5D17 /* AdSdkKeyChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B04B8891EAB2FC900AB5D17 /* AdSdkKeyChain.m */; };
+		0B04B88C1EAB48CE00AB5D17 /* AdSdkCommConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B8E58D51EA8D68A00E89DE5 /* AdSdkCommConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B1D14011EA9CF2F00A4A339 /* AdSdkLogCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B1D13FF1EA9CF2F00A4A339 /* AdSdkLogCenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B1D14021EA9CF2F00A4A339 /* AdSdkLogCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B1D14001EA9CF2F00A4A339 /* AdSdkLogCenter.m */; };
+		0B1D140A1EA9EA5B00A4A339 /* AdSdkServiceReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B1D14081EA9EA5B00A4A339 /* AdSdkServiceReachability.h */; };
+		0B1D140B1EA9EA5B00A4A339 /* AdSdkServiceReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B1D14091EA9EA5B00A4A339 /* AdSdkServiceReachability.m */; };
+		0B1D140E1EA9EA8200A4A339 /* AdSdkDeviceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B1D140C1EA9EA8200A4A339 /* AdSdkDeviceInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B1D140F1EA9EA8200A4A339 /* AdSdkDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B1D140D1EA9EA8200A4A339 /* AdSdkDeviceInfo.m */; };
+		0B5341451EAE031100868ECF /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B5341441EAE031100868ECF /* close.png */; };
+		0B5341631EAF2D8400868ECF /* AdSdkDeviceIp.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B5341611EAF2D8400868ECF /* AdSdkDeviceIp.h */; };
+		0B5341641EAF2D8400868ECF /* AdSdkDeviceIp.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5341621EAF2D8400868ECF /* AdSdkDeviceIp.m */; };
+		0B5341671EAF362400868ECF /* AdSdkWebViewControlViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B5341651EAF362400868ECF /* AdSdkWebViewControlViewController.h */; };
+		0B5341681EAF362400868ECF /* AdSdkWebViewControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5341661EAF362400868ECF /* AdSdkWebViewControlViewController.m */; };
+		0B53416C1EB0A27300868ECF /* AdSdkDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B53416B1EB0A27300868ECF /* AdSdkDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B5F7DFC1EC06F40005FFB74 /* AdSdkPopView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B5F7DFA1EC06F40005FFB74 /* AdSdkPopView.h */; };
+		0B5F7DFD1EC06F40005FFB74 /* AdSdkPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5F7DFB1EC06F40005FFB74 /* AdSdkPopView.m */; };
+		0B5F7E001EC073E5005FFB74 /* AdSdkInterstital.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B5F7DFE1EC073E5005FFB74 /* AdSdkInterstital.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B5F7E011EC073E5005FFB74 /* AdSdkInterstital.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5F7DFF1EC073E5005FFB74 /* AdSdkInterstital.m */; };
+		0B5F7E031EC07432005FFB74 /* AdSdkInterstitalDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B5F7E021EC07432005FFB74 /* AdSdkInterstitalDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B8E58841EA8690100E89DE5 /* AdSdk.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B8E583E1EA8637E00E89DE5 /* AdSdk.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B8E58CB1EA8C19A00E89DE5 /* AdsSdkBannerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B8E58CA1EA8C19A00E89DE5 /* AdsSdkBannerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B8E58CE1EA8C1CB00E89DE5 /* AdSdkBanner.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B8E58CC1EA8C1CB00E89DE5 /* AdSdkBanner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B8E58D81EA8DA1700E89DE5 /* AdSdkBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B8E58CD1EA8C1CB00E89DE5 /* AdSdkBanner.m */; };
+		0B8E58DB1EA8DAA500E89DE5 /* AdSdk.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B8E58DA1EA8DAA500E89DE5 /* AdSdk.m */; };
+		0B8E58DF1EA8E28A00E89DE5 /* AdSdkHttpRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B8E58DD1EA8E28A00E89DE5 /* AdSdkHttpRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B8E58E01EA8E28A00E89DE5 /* AdSdkHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B8E58DE1EA8E28A00E89DE5 /* AdSdkHttpRequest.m */; };
+		0BF9A79F1EAB973F00A41FF7 /* AdSdkConfigData.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BF9A79D1EAB973F00A41FF7 /* AdSdkConfigData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BF9A7A01EAB973F00A41FF7 /* AdSdkConfigData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BF9A79E1EAB973F00A41FF7 /* AdSdkConfigData.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B8E588E1EA885C100E89DE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B8E58321EA8637E00E89DE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B8E583A1EA8637E00E89DE5;
+			remoteInfo = AdSdk;
+		};
+		0B8E58AC1EA898B600E89DE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B8E58321EA8637E00E89DE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B8E58A51EA894E900E89DE5;
+			remoteInfo = AdSdkResources;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B04B8881EAB2FC900AB5D17 /* AdSdkKeyChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdSdkKeyChain.h; sourceTree = "<group>"; };
+		0B04B8891EAB2FC900AB5D17 /* AdSdkKeyChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdSdkKeyChain.m; sourceTree = "<group>"; };
+		0B1D13FF1EA9CF2F00A4A339 /* AdSdkLogCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdSdkLogCenter.h; sourceTree = "<group>"; };
+		0B1D14001EA9CF2F00A4A339 /* AdSdkLogCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdSdkLogCenter.m; sourceTree = "<group>"; };
+		0B1D14081EA9EA5B00A4A339 /* AdSdkServiceReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdSdkServiceReachability.h; sourceTree = "<group>"; };
+		0B1D14091EA9EA5B00A4A339 /* AdSdkServiceReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdSdkServiceReachability.m; sourceTree = "<group>"; };
+		0B1D140C1EA9EA8200A4A339 /* AdSdkDeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdSdkDeviceInfo.h; sourceTree = "<group>"; };
+		0B1D140D1EA9EA8200A4A339 /* AdSdkDeviceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdSdkDeviceInfo.m; sourceTree = "<group>"; };
+		0B5341441EAE031100868ECF /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = close.png; path = ../../Configurations/close.png; sourceTree = "<group>"; };
+		0B5341611EAF2D8400868ECF /* AdSdkDeviceIp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdSdkDeviceIp.h; sourceTree = "<group>"; };
+		0B5341621EAF2D8400868ECF /* AdSdkDeviceIp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdSdkDeviceIp.m; sourceTree = "<group>"; };
+		0B5341651EAF362400868ECF /* AdSdkWebViewControlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdSdkWebViewControlViewController.h; sourceTree = "<group>"; };
+		0B5341661EAF362400868ECF /* AdSdkWebViewControlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdSdkWebViewControlViewController.m; sourceTree = "<group>"; };
+		0B53416B1EB0A27300868ECF /* AdSdkDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdSdkDelegate.h; sourceTree = "<group>"; };
+		0B5F7DFA1EC06F40005FFB74 /* AdSdkPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdSdkPopView.h; sourceTree = "<group>"; };
+		0B5F7DFB1EC06F40005FFB74 /* AdSdkPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdSdkPopView.m; sourceTree = "<group>"; };
+		0B5F7DFE1EC073E5005FFB74 /* AdSdkInterstital.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdSdkInterstital.h; sourceTree = "<group>"; };
+		0B5F7DFF1EC073E5005FFB74 /* AdSdkInterstital.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdSdkInterstital.m; sourceTree = "<group>"; };
+		0B5F7E021EC07432005FFB74 /* AdSdkInterstitalDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdSdkInterstitalDelegate.h; sourceTree = "<group>"; };
+		0B8E583B1EA8637E00E89DE5 /* AdSdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AdSdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B8E583E1EA8637E00E89DE5 /* AdSdk.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdSdk.h; sourceTree = "<group>"; };
+		0B8E583F1EA8637E00E89DE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B8E58881EA86ADE00E89DE5 /* AdSdk-Universal */ = {isa = PBXFileReference; explicitFileType = folder; includeInIndex = 0; path = "AdSdk-Universal"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B8E588A1EA86ADE00E89DE5 /* ContentInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ContentInfo.plist; sourceTree = "<group>"; };
+		0B8E58941EA88B4800E89DE5 /* AdSdk-Library.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "AdSdk-Library.xcconfig"; sourceTree = "<group>"; };
+		0B8E58951EA88B6100E89DE5 /* AdSdk-Project.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "AdSdk-Project.xcconfig"; sourceTree = "<group>"; };
+		0B8E58961EA88B7700E89DE5 /* AdSdk-Project-Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "AdSdk-Project-Debug.xcconfig"; sourceTree = "<group>"; };
+		0B8E58971EA88B8F00E89DE5 /* AdSdk-Project-Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "AdSdk-Project-Release.xcconfig"; sourceTree = "<group>"; };
+		0B8E58A61EA894E900E89DE5 /* AdSdk.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdSdk.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B8E58A81EA894EA00E89DE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B8E58CA1EA8C19A00E89DE5 /* AdsSdkBannerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdsSdkBannerDelegate.h; sourceTree = "<group>"; };
+		0B8E58CC1EA8C1CB00E89DE5 /* AdSdkBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdSdkBanner.h; sourceTree = "<group>"; };
+		0B8E58CD1EA8C1CB00E89DE5 /* AdSdkBanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdSdkBanner.m; sourceTree = "<group>"; };
+		0B8E58D51EA8D68A00E89DE5 /* AdSdkCommConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdSdkCommConstants.h; sourceTree = "<group>"; };
+		0B8E58DA1EA8DAA500E89DE5 /* AdSdk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdSdk.m; sourceTree = "<group>"; };
+		0B8E58DD1EA8E28A00E89DE5 /* AdSdkHttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdSdkHttpRequest.h; sourceTree = "<group>"; };
+		0B8E58DE1EA8E28A00E89DE5 /* AdSdkHttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdSdkHttpRequest.m; sourceTree = "<group>"; };
+		0BF9A79D1EAB973F00A41FF7 /* AdSdkConfigData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdSdkConfigData.h; sourceTree = "<group>"; };
+		0BF9A79E1EAB973F00A41FF7 /* AdSdkConfigData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdSdkConfigData.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B8E58371EA8637E00E89DE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B8E58A31EA894E900E89DE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B1D14031EA9E50C00A4A339 /* DeviceInfo */ = {
+			isa = PBXGroup;
+			children = (
+				0B1D140C1EA9EA8200A4A339 /* AdSdkDeviceInfo.h */,
+				0B1D140D1EA9EA8200A4A339 /* AdSdkDeviceInfo.m */,
+				0B04B8881EAB2FC900AB5D17 /* AdSdkKeyChain.h */,
+				0B04B8891EAB2FC900AB5D17 /* AdSdkKeyChain.m */,
+				0B5341611EAF2D8400868ECF /* AdSdkDeviceIp.h */,
+				0B5341621EAF2D8400868ECF /* AdSdkDeviceIp.m */,
+				0B5341651EAF362400868ECF /* AdSdkWebViewControlViewController.h */,
+				0B5341661EAF362400868ECF /* AdSdkWebViewControlViewController.m */,
+				0B5F7DFA1EC06F40005FFB74 /* AdSdkPopView.h */,
+				0B5F7DFB1EC06F40005FFB74 /* AdSdkPopView.m */,
+			);
+			name = DeviceInfo;
+			sourceTree = "<group>";
+		};
+		0B8E58311EA8637E00E89DE5 = {
+			isa = PBXGroup;
+			children = (
+				0B8E58C31EA8AD1700E89DE5 /* AdControlCenter */,
+				0B8E58931EA88B0300E89DE5 /* Configurations */,
+				0B8E583D1EA8637E00E89DE5 /* AdSdk */,
+				0B8E58891EA86ADE00E89DE5 /* AdSdk-Universal */,
+				0B8E58A71EA894EA00E89DE5 /* AdSdkResources */,
+				0B8E583C1EA8637E00E89DE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0B8E583C1EA8637E00E89DE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B8E583B1EA8637E00E89DE5 /* AdSdk.framework */,
+				0B8E58881EA86ADE00E89DE5 /* AdSdk-Universal */,
+				0B8E58A61EA894E900E89DE5 /* AdSdk.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B8E583D1EA8637E00E89DE5 /* AdSdk */ = {
+			isa = PBXGroup;
+			children = (
+				0B8E583E1EA8637E00E89DE5 /* AdSdk.h */,
+				0B8E583F1EA8637E00E89DE5 /* Info.plist */,
+				0B8E58DA1EA8DAA500E89DE5 /* AdSdk.m */,
+				0B53416B1EB0A27300868ECF /* AdSdkDelegate.h */,
+			);
+			path = AdSdk;
+			sourceTree = "<group>";
+		};
+		0B8E58891EA86ADE00E89DE5 /* AdSdk-Universal */ = {
+			isa = PBXGroup;
+			children = (
+				0B8E588A1EA86ADE00E89DE5 /* ContentInfo.plist */,
+			);
+			path = "AdSdk-Universal";
+			sourceTree = "<group>";
+		};
+		0B8E58931EA88B0300E89DE5 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				0B8E58941EA88B4800E89DE5 /* AdSdk-Library.xcconfig */,
+				0B8E58951EA88B6100E89DE5 /* AdSdk-Project.xcconfig */,
+				0B8E58961EA88B7700E89DE5 /* AdSdk-Project-Debug.xcconfig */,
+				0B8E58971EA88B8F00E89DE5 /* AdSdk-Project-Release.xcconfig */,
+			);
+			name = Configurations;
+			sourceTree = "<group>";
+		};
+		0B8E58A71EA894EA00E89DE5 /* AdSdkResources */ = {
+			isa = PBXGroup;
+			children = (
+				0B5341441EAE031100868ECF /* close.png */,
+				0B8E58A81EA894EA00E89DE5 /* Info.plist */,
+			);
+			path = AdSdkResources;
+			sourceTree = "<group>";
+		};
+		0B8E58C31EA8AD1700E89DE5 /* AdControlCenter */ = {
+			isa = PBXGroup;
+			children = (
+				0B1D14031EA9E50C00A4A339 /* DeviceInfo */,
+				0B8E58DC1EA8E26300E89DE5 /* HttpRequest */,
+				0B8E58C61EA8AD5700E89DE5 /* Native */,
+				0B8E58C51EA8AD3B00E89DE5 /* interstitial */,
+				0B8E58C41EA8AD3200E89DE5 /* Banner */,
+				0B8E58D51EA8D68A00E89DE5 /* AdSdkCommConstants.h */,
+				0B1D13FF1EA9CF2F00A4A339 /* AdSdkLogCenter.h */,
+				0B1D14001EA9CF2F00A4A339 /* AdSdkLogCenter.m */,
+				0BF9A79D1EAB973F00A41FF7 /* AdSdkConfigData.h */,
+				0BF9A79E1EAB973F00A41FF7 /* AdSdkConfigData.m */,
+			);
+			name = AdControlCenter;
+			sourceTree = "<group>";
+		};
+		0B8E58C41EA8AD3200E89DE5 /* Banner */ = {
+			isa = PBXGroup;
+			children = (
+				0B8E58CA1EA8C19A00E89DE5 /* AdsSdkBannerDelegate.h */,
+				0B8E58CC1EA8C1CB00E89DE5 /* AdSdkBanner.h */,
+				0B8E58CD1EA8C1CB00E89DE5 /* AdSdkBanner.m */,
+			);
+			name = Banner;
+			sourceTree = "<group>";
+		};
+		0B8E58C51EA8AD3B00E89DE5 /* interstitial */ = {
+			isa = PBXGroup;
+			children = (
+				0B5F7DFE1EC073E5005FFB74 /* AdSdkInterstital.h */,
+				0B5F7DFF1EC073E5005FFB74 /* AdSdkInterstital.m */,
+				0B5F7E021EC07432005FFB74 /* AdSdkInterstitalDelegate.h */,
+			);
+			name = interstitial;
+			sourceTree = "<group>";
+		};
+		0B8E58C61EA8AD5700E89DE5 /* Native */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Native;
+			sourceTree = "<group>";
+		};
+		0B8E58DC1EA8E26300E89DE5 /* HttpRequest */ = {
+			isa = PBXGroup;
+			children = (
+				0B8E58DD1EA8E28A00E89DE5 /* AdSdkHttpRequest.h */,
+				0B8E58DE1EA8E28A00E89DE5 /* AdSdkHttpRequest.m */,
+				0B1D14081EA9EA5B00A4A339 /* AdSdkServiceReachability.h */,
+				0B1D14091EA9EA5B00A4A339 /* AdSdkServiceReachability.m */,
+			);
+			name = HttpRequest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0B8E58381EA8637E00E89DE5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B04B88C1EAB48CE00AB5D17 /* AdSdkCommConstants.h in Headers */,
+				0B5F7DFC1EC06F40005FFB74 /* AdSdkPopView.h in Headers */,
+				0B1D14011EA9CF2F00A4A339 /* AdSdkLogCenter.h in Headers */,
+				0BF9A79F1EAB973F00A41FF7 /* AdSdkConfigData.h in Headers */,
+				0B8E58DF1EA8E28A00E89DE5 /* AdSdkHttpRequest.h in Headers */,
+				0B5341631EAF2D8400868ECF /* AdSdkDeviceIp.h in Headers */,
+				0B5F7E001EC073E5005FFB74 /* AdSdkInterstital.h in Headers */,
+				0B8E58CE1EA8C1CB00E89DE5 /* AdSdkBanner.h in Headers */,
+				0B5F7E031EC07432005FFB74 /* AdSdkInterstitalDelegate.h in Headers */,
+				0B53416C1EB0A27300868ECF /* AdSdkDelegate.h in Headers */,
+				0B1D140E1EA9EA8200A4A339 /* AdSdkDeviceInfo.h in Headers */,
+				0B8E58CB1EA8C19A00E89DE5 /* AdsSdkBannerDelegate.h in Headers */,
+				0B1D140A1EA9EA5B00A4A339 /* AdSdkServiceReachability.h in Headers */,
+				0B5341671EAF362400868ECF /* AdSdkWebViewControlViewController.h in Headers */,
+				0B8E58841EA8690100E89DE5 /* AdSdk.h in Headers */,
+				0B04B88A1EAB2FC900AB5D17 /* AdSdkKeyChain.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0B8E583A1EA8637E00E89DE5 /* AdSdk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B8E58431EA8637E00E89DE5 /* Build configuration list for PBXNativeTarget "AdSdk" */;
+			buildPhases = (
+				0B8E58361EA8637E00E89DE5 /* Sources */,
+				0B8E58371EA8637E00E89DE5 /* Frameworks */,
+				0B8E58381EA8637E00E89DE5 /* Headers */,
+				0B8E58391EA8637E00E89DE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B8E58AD1EA898B600E89DE5 /* PBXTargetDependency */,
+			);
+			name = AdSdk;
+			productName = AdSdk;
+			productReference = 0B8E583B1EA8637E00E89DE5 /* AdSdk.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		0B8E58871EA86ADE00E89DE5 /* AdSdk-Universal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B8E588B1EA86ADE00E89DE5 /* Build configuration list for PBXNativeTarget "AdSdk-Universal" */;
+			buildPhases = (
+				0B8E58861EA86ADE00E89DE5 /* Resources */,
+				0B8E58901EA885CF00E89DE5 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B8E588F1EA885C100E89DE5 /* PBXTargetDependency */,
+			);
+			name = "AdSdk-Universal";
+			productName = "AdSdk-Universal";
+			productReference = 0B8E58881EA86ADE00E89DE5 /* AdSdk-Universal */;
+			productType = "com.apple.product-type.in-app-purchase-content";
+		};
+		0B8E58A51EA894E900E89DE5 /* AdSdkResources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B8E58A91EA894EA00E89DE5 /* Build configuration list for PBXNativeTarget "AdSdkResources" */;
+			buildPhases = (
+				0B8E58A21EA894E900E89DE5 /* Sources */,
+				0B8E58A31EA894E900E89DE5 /* Frameworks */,
+				0B8E58A41EA894E900E89DE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdSdkResources;
+			productName = AdSdkResources;
+			productReference = 0B8E58A61EA894E900E89DE5 /* AdSdk.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B8E58321EA8637E00E89DE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "冉文龙";
+				TargetAttributes = {
+					0B8E583A1EA8637E00E89DE5 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = E98A9VW3ZN;
+						ProvisioningStyle = Automatic;
+					};
+					0B8E58871EA86ADE00E89DE5 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+					0B8E58A51EA894E900E89DE5 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = E98A9VW3ZN;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0B8E58351EA8637E00E89DE5 /* Build configuration list for PBXProject "AdSdk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0B8E58311EA8637E00E89DE5;
+			productRefGroup = 0B8E583C1EA8637E00E89DE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B8E583A1EA8637E00E89DE5 /* AdSdk */,
+				0B8E58871EA86ADE00E89DE5 /* AdSdk-Universal */,
+				0B8E58A51EA894E900E89DE5 /* AdSdkResources */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B8E58391EA8637E00E89DE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B8E58861EA86ADE00E89DE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B8E58A41EA894E900E89DE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B5341451EAE031100868ECF /* close.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B8E58901EA885CF00E89DE5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "../scripts/build-universal-framework.sh";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B8E58361EA8637E00E89DE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B5341681EAF362400868ECF /* AdSdkWebViewControlViewController.m in Sources */,
+				0B8E58DB1EA8DAA500E89DE5 /* AdSdk.m in Sources */,
+				0BF9A7A01EAB973F00A41FF7 /* AdSdkConfigData.m in Sources */,
+				0B1D14021EA9CF2F00A4A339 /* AdSdkLogCenter.m in Sources */,
+				0B8E58E01EA8E28A00E89DE5 /* AdSdkHttpRequest.m in Sources */,
+				0B5F7DFD1EC06F40005FFB74 /* AdSdkPopView.m in Sources */,
+				0B1D140F1EA9EA8200A4A339 /* AdSdkDeviceInfo.m in Sources */,
+				0B5F7E011EC073E5005FFB74 /* AdSdkInterstital.m in Sources */,
+				0B04B88B1EAB2FC900AB5D17 /* AdSdkKeyChain.m in Sources */,
+				0B8E58D81EA8DA1700E89DE5 /* AdSdkBanner.m in Sources */,
+				0B1D140B1EA9EA5B00A4A339 /* AdSdkServiceReachability.m in Sources */,
+				0B5341641EAF2D8400868ECF /* AdSdkDeviceIp.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B8E58A21EA894E900E89DE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B8E588F1EA885C100E89DE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B8E583A1EA8637E00E89DE5 /* AdSdk */;
+			targetProxy = 0B8E588E1EA885C100E89DE5 /* PBXContainerItemProxy */;
+		};
+		0B8E58AD1EA898B600E89DE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B8E58A51EA894E900E89DE5 /* AdSdkResources */;
+			targetProxy = 0B8E58AC1EA898B600E89DE5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0B8E58411EA8637E00E89DE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B8E58961EA88B7700E89DE5 /* AdSdk-Project-Debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0B8E58421EA8637E00E89DE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B8E58971EA88B8F00E89DE5 /* AdSdk-Project-Release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0B8E58441EA8637E00E89DE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B8E58941EA88B4800E89DE5 /* AdSdk-Library.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = E98A9VW3ZN;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AdSdk/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = china.ranpop.AdSdk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		0B8E58451EA8637E00E89DE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B8E58941EA88B4800E89DE5 /* AdSdk-Library.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = E98A9VW3ZN;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AdSdk/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = china.ranpop.AdSdk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		0B8E588C1EA86ADE00E89DE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B8E58941EA88B4800E89DE5 /* AdSdk-Library.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "AdSdk-Universal/ContentInfo.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/InAppPurchaseContent";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = "";
+			};
+			name = Debug;
+		};
+		0B8E588D1EA86ADE00E89DE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B8E58941EA88B4800E89DE5 /* AdSdk-Library.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "AdSdk-Universal/ContentInfo.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/InAppPurchaseContent";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = "";
+			};
+			name = Release;
+		};
+		0B8E58AA1EA894EA00E89DE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COMBINE_HIDPI_IMAGES = NO;
+				CONFIGURATION_BUILD_DIR = ../build;
+				DEVELOPMENT_TEAM = E98A9VW3ZN;
+				INFOPLIST_FILE = AdSdkResources/info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = china.ranpop.AdSdkResources;
+				PRODUCT_NAME = AdSdk;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		0B8E58AB1EA894EA00E89DE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COMBINE_HIDPI_IMAGES = NO;
+				CONFIGURATION_BUILD_DIR = ../build;
+				DEVELOPMENT_TEAM = E98A9VW3ZN;
+				INFOPLIST_FILE = AdSdkResources/info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = china.ranpop.AdSdkResources;
+				PRODUCT_NAME = AdSdk;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B8E58351EA8637E00E89DE5 /* Build configuration list for PBXProject "AdSdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B8E58411EA8637E00E89DE5 /* Debug */,
+				0B8E58421EA8637E00E89DE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B8E58431EA8637E00E89DE5 /* Build configuration list for PBXNativeTarget "AdSdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B8E58441EA8637E00E89DE5 /* Debug */,
+				0B8E58451EA8637E00E89DE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B8E588B1EA86ADE00E89DE5 /* Build configuration list for PBXNativeTarget "AdSdk-Universal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B8E588C1EA86ADE00E89DE5 /* Debug */,
+				0B8E588D1EA86ADE00E89DE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B8E58A91EA894EA00E89DE5 /* Build configuration list for PBXNativeTarget "AdSdkResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B8E58AA1EA894EA00E89DE5 /* Debug */,
+				0B8E58AB1EA894EA00E89DE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0B8E58321EA8637E00E89DE5 /* Project object */;
+}

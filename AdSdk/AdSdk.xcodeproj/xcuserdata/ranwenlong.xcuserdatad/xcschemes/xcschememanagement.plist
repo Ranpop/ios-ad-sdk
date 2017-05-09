@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>AdSdk-Universal.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>AdSdk.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>AdSdkResources.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>0B8E583A1EA8637E00E89DE5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0B8E58871EA86ADE00E89DE5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0B8E589B1EA88E6C00E89DE5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0B8E58A51EA894E900E89DE5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

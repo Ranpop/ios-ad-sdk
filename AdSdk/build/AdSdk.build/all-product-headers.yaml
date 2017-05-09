@@ -1,0 +1,83 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/ranwenlong/Library/Developer/Xcode/DerivedData/NormalSdk-dtszbbwibjajrqctcbvvmmfihacm/Build/Products/Debug-iphonesimulator/AdSdk.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "AdSdk-Swift.h",
+          'external-contents': "/Users/ranwenlong/Library/Developer/Xcode/DerivedData/NormalSdk-dtszbbwibjajrqctcbvvmmfihacm/Build/Products/Debug-iphonesimulator/AdSdk.framework/Headers/AdSdk-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "AdSdk.h",
+          'external-contents': "/Users/ranwenlong/work/MexNormalSdk/AdSdk/AdSdk/AdSdk.h"
+        },
+        {
+          'type': 'file',
+          'name': "AdSdkBanner.h",
+          'external-contents': "/Users/ranwenlong/work/MexNormalSdk/AdSdk/AdSdkBanner.h"
+        },
+        {
+          'type': 'file',
+          'name': "AdSdkCommConstants.h",
+          'external-contents': "/Users/ranwenlong/work/MexNormalSdk/AdSdk/AdSdkCommConstants.h"
+        },
+        {
+          'type': 'file',
+          'name': "AdSdkConfigData.h",
+          'external-contents': "/Users/ranwenlong/work/MexNormalSdk/AdSdk/AdSdkConfigData.h"
+        },
+        {
+          'type': 'file',
+          'name': "AdSdkDelegate.h",
+          'external-contents': "/Users/ranwenlong/work/MexNormalSdk/AdSdk/AdSdk/AdSdkDelegate.h"
+        },
+        {
+          'type': 'file',
+          'name': "AdSdkDeviceInfo.h",
+          'external-contents': "/Users/ranwenlong/work/MexNormalSdk/AdSdk/AdSdkDeviceInfo.h"
+        },
+        {
+          'type': 'file',
+          'name': "AdSdkHttpRequest.h",
+          'external-contents': "/Users/ranwenlong/work/MexNormalSdk/AdSdk/AdSdkHttpRequest.h"
+        },
+        {
+          'type': 'file',
+          'name': "AdSdkInterstital.h",
+          'external-contents': "/Users/ranwenlong/work/MexNormalSdk/AdSdk/AdSdkInterstital.h"
+        },
+        {
+          'type': 'file',
+          'name': "AdSdkInterstitalDelegate.h",
+          'external-contents': "/Users/ranwenlong/work/MexNormalSdk/AdSdk/AdSdkInterstitalDelegate.h"
+        },
+        {
+          'type': 'file',
+          'name': "AdSdkLogCenter.h",
+          'external-contents': "/Users/ranwenlong/work/MexNormalSdk/AdSdk/AdSdkLogCenter.h"
+        },
+        {
+          'type': 'file',
+          'name': "AdsSdkBannerDelegate.h",
+          'external-contents': "/Users/ranwenlong/work/MexNormalSdk/AdSdk/AdsSdkBannerDelegate.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/ranwenlong/Library/Developer/Xcode/DerivedData/NormalSdk-dtszbbwibjajrqctcbvvmmfihacm/Build/Products/Debug-iphonesimulator/AdSdk.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/ranwenlong/work/MexNormalSdk/AdSdk/build/AdSdk.build/Debug-iphonesimulator/AdSdk.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}
