@@ -62,7 +62,7 @@
     AdSdkConfigData *conf = [AdSdkConfigData shareConfData];
     if (1 != conf.is_okay) {
         initStatus = 0;
-        [self bannerInitResult:AdSdkBanerInitFailSdkInitError];
+        [self bannerInitResult:AdSdkSlotInitFailSdkInitError];
         return;
     }
     
@@ -75,20 +75,20 @@
             if (1 == adposStatus) {
                 initStatus = 1;
                 self.refreshInterval = [[dic objectForKey:@"refresh"] integerValue];
-                [self bannerInitResult:AdSdkBanerInitSuccess];
+                [self bannerInitResult:AdSdkSlotInitSuccess];
             }else if (2 == adposStatus){
                 initStatus = 0;
-                [self bannerInitResult:AdSdkBanerInitFailSdkPosIdPause];
+                [self bannerInitResult:AdSdkSlotInitFailSdkPosIdPause];
             }else{
                 initStatus = 0;
-                [self bannerInitResult:AdSdkBanerInitFailSdkPosIdDelete];
+                [self bannerInitResult:AdSdkSlotInitFailSdkPosIdDelete];
             }
         }
     }
     
     if (!hasId) {
         initStatus = 0;
-        [self bannerInitResult:AdSdkBanerInitFailSdkPosIdError];
+        [self bannerInitResult:AdSdkSlotInitFailSdkPosIdError];
     }
 }
 
@@ -181,7 +181,7 @@
         [self reportViews];
         [self bannerDidLoadingFinish];
     }else{
-        [self bannerDidLoadingError:AdSdkBanerImgLoadFail];
+        [self bannerDidLoadingError:AdSdkSlotImgLoadFail];
     }
 }
 

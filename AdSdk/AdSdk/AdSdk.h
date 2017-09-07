@@ -43,7 +43,7 @@
 +(AdSdkInterstital *)InterstitalInitWithFrame:(CGRect)frame adposid:(NSString *)adposid delegate:(id<AdSdkInterstitalDelegate>)delegate;
 
 //插屏广告已经初始化的情况，可以直接调用广告展示
-+(AdSdkInterstital *)interstitalShow: (AdSdkInterStitalErrorCode)errCode;
++(AdSdkInterstital *)interstitalShow: (AdSdkSlotErrorCode)errCode;
 
 //设置日志级别，正式环境不用设置
 +(void)setSdkLogLevel: (AdSDKLogLevel)logLevel;

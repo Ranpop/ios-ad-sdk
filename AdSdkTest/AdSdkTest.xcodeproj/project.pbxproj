@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B291A141EC5626900057D2A /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B291A131EC5626900057D2A /* icon.png */; };
 		0B5341581EAF23D300868ECF /* AdSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B5341571EAF23D300868ECF /* AdSdk.framework */; };
 		0B53415A1EAF244D00868ECF /* AdSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B5341591EAF244D00868ECF /* AdSdk.framework */; };
 		0B53415B1EAF244D00868ECF /* AdSdk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0B5341591EAF244D00868ECF /* AdSdk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0B5AABDD1EC590C10027FE1D /* homepage.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B5AABDC1EC590C10027FE1D /* homepage.png */; };
+		0B5AABDF1EC591020027FE1D /* people.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B5AABDE1EC591020027FE1D /* people.png */; };
+		0B5AABE11EC5910F0027FE1D /* like.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B5AABE01EC5910F0027FE1D /* like.png */; };
 		0B5F7E071EC09AB6005FFB74 /* AdSdk.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0B5F7E061EC09AB6005FFB74 /* AdSdk.bundle */; };
 		0B8E58541EA863D600E89DE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B8E58531EA863D600E89DE5 /* main.m */; };
 		0B8E58571EA863D600E89DE5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B8E58561EA863D600E89DE5 /* AppDelegate.m */; };
@@ -45,8 +49,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0B291A131EC5626900057D2A /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		0B5341571EAF23D300868ECF /* AdSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSdk.framework; path = ../build/AdSdk.framework; sourceTree = "<group>"; };
 		0B5341591EAF244D00868ECF /* AdSdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AdSdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B5AABDC1EC590C10027FE1D /* homepage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homepage.png; sourceTree = "<group>"; };
+		0B5AABDE1EC591020027FE1D /* people.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = people.png; sourceTree = "<group>"; };
+		0B5AABE01EC5910F0027FE1D /* like.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = like.png; sourceTree = "<group>"; };
 		0B5F7E061EC09AB6005FFB74 /* AdSdk.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AdSdk.bundle; sourceTree = "<group>"; };
 		0B8E584F1EA863D600E89DE5 /* AdSdkTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdSdkTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B8E58531EA863D600E89DE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -83,6 +91,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B5AABE21EC5931E0027FE1D /* Like */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Like;
+			sourceTree = "<group>";
+		};
+		0B5AABE31EC593290027FE1D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		0B5AABE41EC593340027FE1D /* Personal */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Personal;
+			sourceTree = "<group>";
+		};
+		0B5AABE51EC593490027FE1D /* ProClick */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ProClick;
+			sourceTree = "<group>";
+		};
 		0B8E58461EA863D600E89DE5 = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +143,14 @@
 		0B8E58511EA863D600E89DE5 /* AdSdkTest */ = {
 			isa = PBXGroup;
 			children = (
+				0B5AABE51EC593490027FE1D /* ProClick */,
+				0B5AABE41EC593340027FE1D /* Personal */,
+				0B5AABE31EC593290027FE1D /* Home */,
+				0B5AABE21EC5931E0027FE1D /* Like */,
+				0B5AABE01EC5910F0027FE1D /* like.png */,
+				0B5AABDE1EC591020027FE1D /* people.png */,
+				0B5AABDC1EC590C10027FE1D /* homepage.png */,
+				0B291A131EC5626900057D2A /* icon.png */,
 				0B8E58551EA863D600E89DE5 /* AppDelegate.h */,
 				0B8E58561EA863D600E89DE5 /* AppDelegate.m */,
 				0B8E58581EA863D600E89DE5 /* ViewController.h */,
@@ -230,7 +274,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B5AABE11EC5910F0027FE1D /* like.png in Resources */,
+				0B5AABDF1EC591020027FE1D /* people.png in Resources */,
 				0B8E58621EA863D600E89DE5 /* LaunchScreen.storyboard in Resources */,
+				0B5AABDD1EC590C10027FE1D /* homepage.png in Resources */,
+				0B291A141EC5626900057D2A /* icon.png in Resources */,
 				0B8E585F1EA863D600E89DE5 /* Assets.xcassets in Resources */,
 				0B8E585D1EA863D600E89DE5 /* Main.storyboard in Resources */,
 				0B5F7E071EC09AB6005FFB74 /* AdSdk.bundle in Resources */,

@@ -42,27 +42,27 @@ typedef enum {
 
 typedef enum {
     //初始化成功
-    AdSdkBanerInitSuccess           = 20001,
+    AdSdkSlotInitSuccess           = 20001,
     
     //Sdk未初始化成功
-    AdSdkBanerInitFailSdkInitError  = 20002,
+    AdSdkSlotInitFailSdkInitError  = 20002,
     
-    //Banner 广告位未配置
-    AdSdkBanerInitFailSdkPosIdError  = 20003,
+    //广告位未配置
+    AdSdkSlotInitFailSdkPosIdError  = 20003,
     
-    //Banner 广告位暂停
-    AdSdkBanerInitFailSdkPosIdPause  = 20004,
+    //广告位暂停
+    AdSdkSlotInitFailSdkPosIdPause  = 20004,
     
-    //Banner 广告位删除
-    AdSdkBanerInitFailSdkPosIdDelete = 20005,
+    //广告位删除
+    AdSdkSlotInitFailSdkPosIdDelete = 20005,
     
-    //Banner 广告未准备好
-    AdSdkBanerLoadFailAdNotReady     = 20006,
+    //广告未准备好
+    AdSdkSlotLoadFailAdNotReady     = 20006,
     
-    //Banner 图片加载失败
-    AdSdkBanerImgLoadFail            = 20007,
-}AdSdkBannerErrorCode;
-
+    //图片加载失败
+    AdSdkSlotImgLoadFail            = 20007,
+}AdSdkSlotErrorCode;
+/*
 typedef enum {
     //初始化成功
     AdSdkInterstitalInitSuccess           = 20001,
@@ -85,7 +85,7 @@ typedef enum {
     //Banner 图片加载失败
     AdSdkInterstitalImgLoadFail            = 20007,
 }AdSdkInterStitalErrorCode;
-
+*/
 typedef enum {
     //竖屏
     AdsSdkIOIsPortrait  =1,
@@ -100,12 +100,12 @@ typedef enum {
 #define AdsSdkInitFaieldRefreshInterval 30
 
 //sdk初始化地址
-//#define AdsSdkInitAddress @"https://adpssp.ad-mex.com/sdkinit"
-#define AdsSdkInitAddress @"http://sdkassist.ssptest.ad-mex.com/sdkinit"
+//#define AdsSdkInitAddress @"http://api.sspprod.ad-mex.com/sdk"
+#define AdsSdkInitAddress @"http://api.sspprod.ad-mex.com/sdk"
 
 //sdk广告请求地址
 //#define AdsSdkAdRequestAddress @"https://adpssp.ad-mex.com/adRequest"
-#define AdsSdkAdRequestAddress @"http://sdkassist.ssptest.ad-mex.com/adRequest"
+#define AdsSdkAdRequestAddress @"http://adpssp.ad-mex.com/adRequest"
 
 
 #endif /* AdSdkCommConstants_h */

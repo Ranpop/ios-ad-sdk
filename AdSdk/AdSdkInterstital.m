@@ -47,7 +47,7 @@
     AdSdkConfigData *conf = [AdSdkConfigData shareConfData];
     if (1 != conf.is_okay) {
         initStatus = 0;
-        [self interstitalInitResult:AdSdkInterstitalInitFailSdkInitError];
+        [self interstitalInitResult:AdSdkSlotInitFailSdkInitError];
         return;
     }
     
@@ -59,20 +59,20 @@
             NSInteger adposStatus = [[dic objectForKey:@"status"] integerValue];
             if (1 == adposStatus) {
                 initStatus = 1;
-                [self interstitalInitResult:AdSdkInterstitalInitSuccess];
+                [self interstitalInitResult:AdSdkSlotInitSuccess];
             }else if (2 == adposStatus){
                 initStatus = 0;
-                [self interstitalInitResult:AdSdkInterstitalInitFailSdkPosIdPause];
+                [self interstitalInitResult:AdSdkSlotInitFailSdkPosIdPause];
             }else{
                 initStatus = 0;
-                [self interstitalInitResult:AdSdkInterstitalInitFailSdkPosIdDelete];
+                [self interstitalInitResult:AdSdkSlotInitFailSdkPosIdDelete];
             }
         }
     }
     
     if (!hasId) {
         initStatus = 0;
-        [self interstitalInitResult:AdSdkInterstitalInitFailSdkPosIdError];
+        [self interstitalInitResult:AdSdkSlotInitFailSdkPosIdError];
     }
 }
 
@@ -160,7 +160,7 @@
         [self reportViews];
         [self interstitalDidLoadingFinish];
     }else{
-        [self interstitalDidLoadingError:AdSdkInterstitalImgLoadFail];
+        [self interstitalDidLoadingError:AdSdkSlotImgLoadFail];
     }
 }
 

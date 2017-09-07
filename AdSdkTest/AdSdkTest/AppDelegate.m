@@ -6,21 +6,21 @@
 //  Copyright © 2017年 冉文龙. All rights reserved.
 //
 @import AdSdk;
-//@import AdSdk.AdSdkDelegate;
+@import AdSdk.AdSdkDelegate;
 
 #import "AppDelegate.h"
-//#import <AdSdk/AdSdk.h>
+#import <AdSdk/AdSdk.h>
 
 #ifndef MEXSDK_PUBLISHER_ID
-#define MEXSDK_PUBLISHER_ID   @"45"
+#define MEXSDK_PUBLISHER_ID   @"598d45d21ad88e0100042f5f"
 #endif
 
 #ifndef MEXSDK_PUBLISHER_TOKEN
-#define MEXSDK_PUBLISHER_TOKEN   @"f4120fe2886db249dd91bc94f461318e"
+#define MEXSDK_PUBLISHER_TOKEN   @"f1c4d8adbaaa81143bd0055779447513"
 #endif
 
 #ifndef MEXSDK_APP_ID
-#define MEXSDK_APP_ID   @"32"
+#define MEXSDK_APP_ID   @"598d465c1ad88e0100042f6f"
 #endif
 
 @interface AppDelegate () <AdSdkDelegate>

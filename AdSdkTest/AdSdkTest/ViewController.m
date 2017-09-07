@@ -16,7 +16,7 @@
 #import "ViewController.h"
 
 #ifndef ADSDK_BANNER_ID
-#define ADSDK_BANNER_ID     @"97"
+#define ADSDK_BANNER_ID     @"598d49b81ad88e0100043101"
 #endif
 
 static BOOL AdSDKBannerInitFlag = NO;
@@ -35,10 +35,20 @@ static BOOL AdSDKBannerInitFlag = NO;
 //    AdSdkView *sdkView = [[AdSdkView alloc]initWithFrame:CGRectMake(20, 20, 500, 100)];
 //    [self.view addSubview:sdkView];
     UINavigationBar *navBar = [[UINavigationBar alloc]initWithFrame:CGRectMake(0, 20, self.view.bounds.size.width, 40)];
-    UINavigationItem *navItem = [[UINavigationItem alloc]initWithTitle:@"Ad Sdk Test"];
-    [navBar pushNavigationItem:navItem animated:NO];
+    UINavigationItem *navItem = [[UINavigationItem alloc]initWithTitle:@"My Game"];
+    [navBar pushNavigationItem:navItem animated:YES];
     [self.view addSubview:navBar];
     
+    UITabBar *tabBar = [[UITabBar alloc]initWithFrame:CGRectMake(0, self.view.bounds.size.height-60, self.view.bounds.size.width, 40)];
+    
+    UITabBarItem *news = [[UITabBarItem alloc]initWithTitle:@"资讯" image:[UIImage imageNamed:@"homepage.png"] tag:0];
+    UITabBarItem *gifts = [[UITabBarItem alloc]initWithTitle:@"活动" image:[UIImage imageNamed:@"like.png"] tag:1];
+    UITabBarItem *records = [[UITabBarItem alloc]initWithTitle:@"我的记录" image:[UIImage imageNamed:@"people.png"] tag:2];
+    NSArray *tabItemsArray = [[NSArray alloc]initWithObjects:news, gifts, records, nil];
+    [tabBar setItems:tabItemsArray];
+    [self.view addSubview:tabBar];
+    
+
     UIButton *btnBanner = [UIButton buttonWithType:UIButtonTypeCustom];
     btnBanner.frame = CGRectMake(5, 65, 90, 40);
     btnBanner.backgroundColor = [UIColor blueColor];
@@ -57,6 +67,7 @@ static BOOL AdSDKBannerInitFlag = NO;
     self.banner = [AdSdk initWithFrame:CGRectMake(0, self.view.bounds.size.height-120, self.view.bounds.size.width, 80) adposid:ADSDK_BANNER_ID delegate:self];
     
     self.interstital = [AdSdk InterstitalInitWithFrame:CGRectMake(0,0,300,450) adposid:ADSDK_BANNER_ID delegate:self];
+
 }
 
 -(void)bannerAdShow{
@@ -90,7 +101,7 @@ static BOOL AdSDKBannerInitFlag = NO;
 
 -(void)bannerInitResult:(NSInteger)code{
     NSLog(@"banner initResult Code: %ld", (long)code);
-    if (code == (NSInteger)AdSdkBanerInitSuccess) {
+    if (code == (NSInteger)AdSdkSlotInitSuccess) {
         AdSDKBannerInitFlag = true;
 //        [self.view addSubview:self.banner];
 //        

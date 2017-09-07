@@ -16,6 +16,9 @@
 		0B1D140B1EA9EA5B00A4A339 /* AdSdkServiceReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B1D14091EA9EA5B00A4A339 /* AdSdkServiceReachability.m */; };
 		0B1D140E1EA9EA8200A4A339 /* AdSdkDeviceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B1D140C1EA9EA8200A4A339 /* AdSdkDeviceInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0B1D140F1EA9EA8200A4A339 /* AdSdkDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B1D140D1EA9EA8200A4A339 /* AdSdkDeviceInfo.m */; };
+		0B2E913B1F5FD0DB00BA3915 /* AdSdkSplashDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B2E913A1F5FD0DB00BA3915 /* AdSdkSplashDelegate.h */; };
+		0B2E914C1F5FD63F00BA3915 /* AdSdkSplash.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B2E914A1F5FD63F00BA3915 /* AdSdkSplash.h */; };
+		0B2E914D1F5FD63F00BA3915 /* AdSdkSplash.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2E914B1F5FD63F00BA3915 /* AdSdkSplash.m */; };
 		0B5341451EAE031100868ECF /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B5341441EAE031100868ECF /* close.png */; };
 		0B5341631EAF2D8400868ECF /* AdSdkDeviceIp.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B5341611EAF2D8400868ECF /* AdSdkDeviceIp.h */; };
 		0B5341641EAF2D8400868ECF /* AdSdkDeviceIp.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5341621EAF2D8400868ECF /* AdSdkDeviceIp.m */; };
@@ -64,6 +67,9 @@
 		0B1D14091EA9EA5B00A4A339 /* AdSdkServiceReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdSdkServiceReachability.m; sourceTree = "<group>"; };
 		0B1D140C1EA9EA8200A4A339 /* AdSdkDeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdSdkDeviceInfo.h; sourceTree = "<group>"; };
 		0B1D140D1EA9EA8200A4A339 /* AdSdkDeviceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdSdkDeviceInfo.m; sourceTree = "<group>"; };
+		0B2E913A1F5FD0DB00BA3915 /* AdSdkSplashDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdSdkSplashDelegate.h; sourceTree = "<group>"; };
+		0B2E914A1F5FD63F00BA3915 /* AdSdkSplash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AdSdkSplash.h; path = AdSdk/AdSdkSplash.h; sourceTree = "<group>"; };
+		0B2E914B1F5FD63F00BA3915 /* AdSdkSplash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AdSdkSplash.m; path = AdSdk/AdSdkSplash.m; sourceTree = "<group>"; };
 		0B5341441EAE031100868ECF /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = close.png; path = ../../Configurations/close.png; sourceTree = "<group>"; };
 		0B5341611EAF2D8400868ECF /* AdSdkDeviceIp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdSdkDeviceIp.h; sourceTree = "<group>"; };
 		0B5341621EAF2D8400868ECF /* AdSdkDeviceIp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdSdkDeviceIp.m; sourceTree = "<group>"; };
@@ -132,6 +138,16 @@
 			name = DeviceInfo;
 			sourceTree = "<group>";
 		};
+		0B2E91331F5FCA1900BA3915 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				0B2E913A1F5FD0DB00BA3915 /* AdSdkSplashDelegate.h */,
+				0B2E914A1F5FD63F00BA3915 /* AdSdkSplash.h */,
+				0B2E914B1F5FD63F00BA3915 /* AdSdkSplash.m */,
+			);
+			name = Splash;
+			sourceTree = "<group>";
+		};
 		0B8E58311EA8637E00E89DE5 = {
 			isa = PBXGroup;
 			children = (
@@ -196,6 +212,7 @@
 		0B8E58C31EA8AD1700E89DE5 /* AdControlCenter */ = {
 			isa = PBXGroup;
 			children = (
+				0B2E91331F5FCA1900BA3915 /* Splash */,
 				0B1D14031EA9E50C00A4A339 /* DeviceInfo */,
 				0B8E58DC1EA8E26300E89DE5 /* HttpRequest */,
 				0B8E58C61EA8AD5700E89DE5 /* Native */,
@@ -255,6 +272,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B2E913B1F5FD0DB00BA3915 /* AdSdkSplashDelegate.h in Headers */,
 				0B04B88C1EAB48CE00AB5D17 /* AdSdkCommConstants.h in Headers */,
 				0B5F7DFC1EC06F40005FFB74 /* AdSdkPopView.h in Headers */,
 				0B1D14011EA9CF2F00A4A339 /* AdSdkLogCenter.h in Headers */,
@@ -265,6 +283,7 @@
 				0B8E58CE1EA8C1CB00E89DE5 /* AdSdkBanner.h in Headers */,
 				0B5F7E031EC07432005FFB74 /* AdSdkInterstitalDelegate.h in Headers */,
 				0B53416C1EB0A27300868ECF /* AdSdkDelegate.h in Headers */,
+				0B2E914C1F5FD63F00BA3915 /* AdSdkSplash.h in Headers */,
 				0B1D140E1EA9EA8200A4A339 /* AdSdkDeviceInfo.h in Headers */,
 				0B8E58CB1EA8C19A00E89DE5 /* AdsSdkBannerDelegate.h in Headers */,
 				0B1D140A1EA9EA5B00A4A339 /* AdSdkServiceReachability.h in Headers */,
@@ -428,6 +447,7 @@
 				0B5F7DFD1EC06F40005FFB74 /* AdSdkPopView.m in Sources */,
 				0B1D140F1EA9EA8200A4A339 /* AdSdkDeviceInfo.m in Sources */,
 				0B5F7E011EC073E5005FFB74 /* AdSdkInterstital.m in Sources */,
+				0B2E914D1F5FD63F00BA3915 /* AdSdkSplash.m in Sources */,
 				0B04B88B1EAB2FC900AB5D17 /* AdSdkKeyChain.m in Sources */,
 				0B8E58D81EA8DA1700E89DE5 /* AdSdkBanner.m in Sources */,
 				0B1D140B1EA9EA5B00A4A339 /* AdSdkServiceReachability.m in Sources */,
